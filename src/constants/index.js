@@ -24,6 +24,9 @@ import {
     tripguide,
     threejs,
 } from "../assets";
+import diu from '../assets/company/diu.png';
+import ammc from '../assets/company/ammc.png';
+import mnhs from '../assets/company/mnhs.png';
 
 export const navLinks = [
     {
@@ -110,26 +113,26 @@ const technologies = [
     },
 ];
 
-const education = [
+const educations = [
     {
         title: "Bsc in Software Engineering",
         Institution_name: "Daffodil International University",
-        // icon: DIU,
-        // iconBg: "#383E56",
+        icon: diu,
+        iconBg: "#383E56",
         date: "2020 - Present",
     },
     {
         title: "HSC",
         Institution_name: "Alamgir Monsur Mintu Memorial College",
-        // icon: AMMC,
-        // iconBg: "#E6DEDD",
+        icon: ammc,
+        iconBg: "#383E56",
         date: "2019",
     },
     {
         title: "SSC",
         Institution_name: "Mukul Niketon High School",
-        // icon: MNHS,
-        // iconBg: "#383E56",
+        icon: mnhs,
+        iconBg: "#383E56",
         date: "2017"
     },
 ];
@@ -227,4 +230,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, education, testimonials, projects };
+export { services, technologies, educations, testimonials, projects };
