@@ -24,9 +24,14 @@ import {
     tripguide,
     threejs,
 } from "../assets";
+import bookdepo from '../assets/bookdepo.png';
+import cguideapp from '../assets/cguideapp.png';
+import poet from '../assets/poet.png';
 import diu from '../assets/company/diu.png';
 import ammc from '../assets/company/ammc.png';
 import mnhs from '../assets/company/mnhs.png';
+import cpp from '../assets/tech/cpp.png';
+import bootstrap from '../assets/tech/bootstrap.png';
 
 export const navLinks = [
     {
@@ -68,25 +73,29 @@ const technologies = [
         icon: css,
     },
     {
+        name: "Tailwind CSS",
+        icon: tailwind,
+    },
+    {
+        name: "Bootstrap",
+        icon: bootstrap,
+    },
+    {
         name: "JavaScript",
         icon: javascript,
     },
-    {
-        name: "TypeScript",
-        icon: typescript,
-    },
+    // {
+    //     name: "TypeScript",
+    //     icon: typescript,
+    // },
     {
         name: "React JS",
         icon: reactjs,
     },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
+    // {
+    //     name: "Redux Toolkit",
+    //     icon: redux,
+    // },
     {
         name: "Node JS",
         icon: nodejs,
@@ -96,9 +105,13 @@ const technologies = [
         icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
+        name: "C++",
+        icon: cpp,
     },
+    // {
+    //     name: "Three JS",
+    //     icon: threejs,
+    // },
     {
         name: "git",
         icon: git,
@@ -107,10 +120,10 @@ const technologies = [
         name: "figma",
         icon: figma,
     },
-    {
-        name: "docker",
-        icon: docker,
-    },
+    // {
+    //     name: "docker",
+    //     icon: docker,
+    // },
 ];
 
 const educations = [
@@ -166,67 +179,90 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Book Depo",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web-based book resale application where people can buy books at a low price. Providing a convenient and efficient solution for those people who can't buy books from stores who sells them at a high price.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "node js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            }
+        ],
+        image: bookdepo,
+        client_side_source_code_link: "https://github.com/Fahmidur-arnob/Book_Depo",
+        server_side_source_code_link: "https://github.com/Fahmidur-arnob/Book_Depo_Server",
+        live_site_link: "https://book-depo-9d0e9.web.app/",
+    },
+    {
+        name: "The Picture and The Poet",
+        description:
+            "Web application that inspires and promotes photography. Also through this application people can buy photographs from photographers and also take the services they provide.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "node js",
+                color: "green-text-gradient",
             },
             {
                 name: "mongodb",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "git",
                 color: "pink-text-gradient",
-            },
+            }
         ],
-        image: carrent,
+        image: poet,
         source_code_link: "https://github.com/",
     },
     {
-        name: "Job IT",
+        name: "Country Guide App",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A comprehensive platform that allows users to know about their country as well as other countries. This application will help a lot of people specially those who are interested in know about different countries and also those who are currently studying.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "node js",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
+                name: "mongodb",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "git",
                 color: "pink-text-gradient",
-            },
+            }
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: cguideapp,
+        source_code_link: "https://github.com/Fahmidur-arnob/country_guide_app_api",
+        live_site_link: "https://fahmidur-arnob.github.io/country_guide_app_api/",
     },
 ];
 
