@@ -18,14 +18,15 @@ const EducationCard = ({education}) => (
       <div className='flex justify-center items-center w-full h-full'>
         <img
           src={education.icon}
-          alt={education.Institution_name} 
+          alt='' 
           className='w-[60%] h-[60%] object-contain'  
         />
       </div>
     }
   >
     <div>
-      <h3 className='text-white text-[24px] font-bold'>{education.title}</h3>
+      <h3 className='text-white text-[26px] font-bold'>{education.title}</h3>
+      <h4 className='text-white text-[15px] font-semibold'>{education.Institution_name}</h4>
     </div>
   </VerticalTimelineElement>
 )
